@@ -1,0 +1,56 @@
+#quiz ol {
+    list-style-type: upper-latin;
+    user-select: none;
+    font-size: 30px;
+}
+
+#quiz ol li:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+#quiz ol.disabled {
+    background-color: transparent;
+    opacity: 0.5;
+    cursor: default;
+}
+
+#quiz ol li.right {
+    background-color: rgb(151, 217, 134);
+    opacity: 1;
+}
+
+#quiz ol li.wrong {
+    background-color: rgb(219, 39, 24);
+    opacity: 1;
+}
+
+
+#quiz button {
+    background-color: rgb(96, 122, 163);
+    color: #fff;
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+
+#quiz button:hover {
+    background-color: rgb(96, 122, 193);
+}
+
+#quiz h2 {
+    font-size: 30px;
+}
+
+#quiz p {
+    font-size: 20px;
+    text-align: center;
+}
+
+#quiz div {
+    font-size: 15px;
+    text-align: right;
+}
